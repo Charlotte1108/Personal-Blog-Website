@@ -1,0 +1,132 @@
+@media (max-width: 1000px) 
+{
+    .link-text{
+        display:block;
+        font-size: 1em;
+        text-align: center;
+    }
+}
+
+@media (max-width:480px) {
+
+    .navbar
+    {
+        width: auto;
+        text-align: left;
+    }
+    
+    .navbar ul
+    {
+        flex-direction: column;
+    }
+
+    .navbar li
+    {
+        float: none;
+        padding-left: 4px;
+        width: 100%;
+    }
+    
+    .navbar a
+    {
+        font-size: 1.1em;
+    }
+    
+    .navbar a:hover
+    {
+        border-bottom: 0;
+    }
+
+    .main-page {
+        float:none; 
+        width: 100%; 
+        padding: 0; 
+        margin: 0;
+    }
+
+    .card { 
+        width: 100%;
+        margin-bottom: 0px;
+    }
+    
+    .card-img { 
+        width: 100%; 
+    }
+    
+    .card-left {
+        margin-right: 0px;
+    }
+    
+    .card-right {
+        margin-left: 0px;
+    }
+
+    .container {
+        display: grid;
+        width: 100%;
+        margin: 0;
+         
+        grid-template-columns: 1fr;
+        grid-template-rows: 80px auto auto auto;
+        grid-gap: 10px;
+         
+        grid-template-areas:   
+         "hd"
+         "main"
+         "ct"
+         "sd";
+    }
+
+    .avatarBlock { 
+        width: 25%;
+    }
+
+    .text {
+        float:none; 
+        width: 100%;
+    }
+
+    .box {
+        float:none; 
+        width: 100%;
+        margin: 0;
+    }
+
+    #one {
+        margin: auto;
+        padding: 0;
+    }
+
+    #two {
+        padding: 0;
+    }
+
+    .button {
+        width: 50%;
+        text-align: center;
+        display: block;
+        margin: auto;
+    }
+
+    input {
+        text-align: center;
+        display: block;
+        margin: 10px auto;
+    }
+
+    #three {
+        margin: auto;
+        padding: 0;
+    }
+
+    #four {
+        margin: auto;
+        margin-bottom: 90px;
+        padding: 0;
+    }
+
+    .footer {
+        float:none; 
+        width: 100%;
+    }
+}

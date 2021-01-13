@@ -1,0 +1,69 @@
+@media (min-width: 781px) and (max-width: 979px)
+{
+    .navbar li {
+        float:none; 
+        width: 100%;
+    }
+
+    .main-page {
+        float:none; 
+        width: auto;
+    }
+
+    .card {
+        float:none; 
+        width: 100%; 
+        height: auto;
+        margin: auto;
+    }
+
+    .text {
+        float:none; 
+        width: 100%;
+    }
+
+    .container {
+        float:none; 
+        width: 100%;
+    }
+
+    .box {
+        float:none; 
+        width: 100%;
+        margin: 0;
+    }
+
+    #one {
+        margin: auto;
+        padding: 0;
+    }
+
+    #two {
+        margin: 0;
+        padding: 2px;
+    }
+
+    .button {
+        float:none; 
+        width: 40%;
+    }
+    
+    input {
+        margin-top: 12px;
+    }
+
+    #three {
+        margin: auto;
+        padding: 0;
+    }
+
+    #four {
+        margin: auto;
+        padding: 0;
+    }
+
+    .footer {
+        float:none; 
+        width: 100%;
+    }  
+}
